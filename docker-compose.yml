@@ -1,9 +1,0 @@
-services:
-  app-fastapi:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    volumes:
-      - .:/app
-    ports:
-      - '8070:80'
